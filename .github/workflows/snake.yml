@@ -2,7 +2,7 @@ name: github-contribution-grid-snake
 
 on:
   schedule:
-    - cron: "0 */12 * * *"
+    - cron: "0 5 * * *"
   push:
     branches: [ main ]
   workflow_dispatch:
